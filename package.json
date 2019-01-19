@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "start": "remarker"
+  },
+  "devDependencies": {
+    "remarker": "^1.9.4"
+  }
+}

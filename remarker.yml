@@ -1,0 +1,44 @@
+dest: docs
+port: 30000
+remarkConfig:
+  slideNumberFormat: 'deno もくもく会 #2 @kt3k - %current% / %total%'
+css: |
+  body {
+    font-family: 'Avenir Next', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
+  }
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  .remark-code,
+  .remark-inline-code {
+    font-family: 'Menlo', 'Monaco', 'Courier new', monospace;
+  }
+
+  code.remark-code {
+    display: block;
+    padding: 0.7em;
+    border-radius: 5px;
+    background-color: #272822;
+    color: #f3f3f3;
+    font-size: 23px;
+  }
+
+  .remark-slide-content {
+    color: #24292e;
+    font-size: 36px;
+    padding: 15px 60px;
+  }
+
+  .remark-slide-content.inverse {
+    color: #f3f3f3;
+    background-color: #272822;
+  }
+
+  .remark-slide-number a {
+    color: #24292e;
+    text-decoration: none;
+  }
+
+  .inverse .remark-slide-number a {
+    color: #f3f3f3;
+  }
