@@ -1,4 +1,54 @@
-class: middle, center
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+    <style type="text/css">
+      body {
+  font-family: 'Avenir Next', 'Hiragino Kaku Gothic ProN', 'Meiryo', 'メイリオ', sans-serif;
+}
+h1, h2, h3 {
+  font-weight: bold;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: 'Menlo', 'Monaco', 'Courier new', monospace;
+}
+
+code.remark-code {
+  display: block;
+  padding: 0.7em;
+  border-radius: 5px;
+  background-color: #272822;
+  color: #f3f3f3;
+  font-size: 23px;
+}
+
+.remark-slide-content {
+  color: #24292e;
+  font-size: 36px;
+  padding: 15px 60px;
+}
+
+.remark-slide-content.inverse {
+  color: #f3f3f3;
+  background-color: #272822;
+}
+
+.remark-slide-number a {
+  color: #24292e;
+  text-decoration: none;
+}
+
+.inverse .remark-slide-number a {
+  color: #f3f3f3;
+}
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source">class: middle, center
 # deno の歴史
 
 ---
@@ -52,4 +102,19 @@ class: middle, center
 # 未来 (私見です)
 
 - WASM サポート
-- dev.jspm.io 互換性 (-> 出来ると babel とか動くかも)
+-
+</textarea>
+    <script src="remark.js"></script>
+    
+    <script>
+      window.slideshow = remark.create({"slideNumberFormat":"deno もくもく会 #2 @kt3k - %current% / %total%"})
+    </script>
+    <script>
+      
+      ;window.LiveReloadOptions = {
+        host: 'localhost',
+        port: '35729'
+      };
+    </script>
+  </body>
+</html>
