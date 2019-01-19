@@ -53,3 +53,4 @@ class: middle, center
 
 - WASM サポート
 - dev.jspm.io 互換性 (-> 出来ると babel とか動くかも)
+- etc...
